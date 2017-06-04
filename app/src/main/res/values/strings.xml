@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="label_KINDANDALI" />
+    <string name="label_KADONGO_KAMU" />
+    <string name="label_RAP" />
+    <string name="label_Abakyaala" />
+    <string name="label_Abaami" />
+    <string name="label_Gospel" />
+    <string name="discovery_screen_description"><![CDATA[This is the Discovery Screen.  It contains a list with all the different types of genres below. Each genre will include 1 ImageView and 2 TextViews, the genre image, name & description. The first genre is clickable. Using explicit intent will lead to the next activity, Song list activity]]></string>
+    <string name="song_list_screen_description">This is the song list screen. You will be directed to this page regardless of which genre selected. This page will include a ListView and ArrayAdapter. It will display a few songs using 2 TextViews that will fall under that specific genre. You will be able to see the song artist and name. Please click the first song. Explicit intent has been used to view the next activity, Now playing activity </string>
+    <string name="now_playing_screen_description">This is the now playing screen. This page will allow you to play your selected song. It will contain an Imageview that illustrates the artist. Below that, 2 TextViews that will display the song artist and song name. A seekbar that shows you your progress throughout the song play and lastly, 5 ImageButtons with the options to play, pause, stop, skip to the beginning or to the end of the song and shuffle.</string>
+    <string name="radio_screen_description">This is the Radio Screen. It contains an ImageView, a TextView for the radiostations name, a SeekBar to show the stations progress and the functionality buttons such as play, stop, skip to next station or skip back Usually, the radiostation would stream stations from a Ugandan radio website, e.g SIMBA</string>
+    <string name="home_screen_description">This is the Home Screen. It has 3 different activities, Discover, Playlist, Radio. They are Buttons that are clickable with the use of explicit intent to allow you to view them. At the end, it includes a search section that would allow you to search for songs by typing either the artist, song name or playlist.</string>
+    <string name="playlist_screen_description">This is the Playlist Screen. This is where you can create your own playlist by using the Add New Playlist Button.</string>
+</resources>

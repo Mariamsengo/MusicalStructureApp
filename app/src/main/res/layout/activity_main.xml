@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dancingafrica"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_screen_description"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/discover_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#000000"
+        android:text="discover"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/playlist_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="playlist"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:background="#000000"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/radio_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="radio"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:background="#000000"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:drawableLeft="@drawable/searchicon2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Search for Artist, Song, Playlist"
+        android:textSize="15sp"
+        android:layout_weight="0.04" />
+
+
+</LinearLayout>
+
+
