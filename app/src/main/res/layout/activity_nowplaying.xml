@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/now_playing_screen_description"
-        android:paddingTop="65dp"
+        android:paddingTop="70dp"
+        android:gravity="center"
         android:textColor="#000000"/>
 
     <ImageView
@@ -46,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/skiptostart"
-            android:paddingLeft="20dp"
+            android:paddingLeft="15dp"
             android:background="@null"/>
 
         <ImageView
@@ -73,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/stopbutton"
-            android:paddingLeft="20dp"
+            android:paddingLeft="15dp"
             android:background="@null"/>
 
 

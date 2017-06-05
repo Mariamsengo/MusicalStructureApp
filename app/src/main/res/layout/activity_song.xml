@@ -11,8 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/song_list_screen_description"
-        android:paddingTop="65dp"
+        android:paddingTop="70dp"
         android:paddingLeft="5dp"
+        android:gravity="center"
         android:textColor="#000000"/>
 
     <Button

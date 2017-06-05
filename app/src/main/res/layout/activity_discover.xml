@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/discovery_screen_description"
-        android:paddingTop="65dp"
+        android:paddingTop="70dp"
         android:paddingLeft="5dp"
         android:gravity="center"
         android:textColor="#000000"/>
@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:paddingTop="150dp"
+        android:paddingTop="170dp"
         android:paddingBottom="80dp"
         android:clickable="true">
 

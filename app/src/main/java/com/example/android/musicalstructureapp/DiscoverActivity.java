@@ -37,13 +37,14 @@ public class DiscoverActivity extends AppCompatActivity {
         DiscoverAdapter playListAdapter = new DiscoverAdapter(this, playLists);
         listView.setAdapter(playListAdapter);
 
+        // Set a click listener on that View
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> a, View v, int position,
                                     long id) {
-
+                // Create a new intent
                 Intent intent = new Intent(DiscoverActivity.this, SongActivity.class);
-
+                // Start the new activity
                 startActivity(intent);
             }
         });
